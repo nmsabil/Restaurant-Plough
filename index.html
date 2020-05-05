@@ -15,11 +15,103 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <!-- custom css -->
     <link rel="stylesheet" href="style.css" />
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img class="logo" src="./img/logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Menu
+              </a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item mx-auto" href="#">Restaurant</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item mx-auto" href="#">Take Away</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- welcome-session -->
+    <section class="section_welcome">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-xs-offset-3 mx-auto">
+            <div class="welcome_content">
+              <h1 class="welcome_content_heading">
+                SCOTSMAN
+              </h1>
+              <p class="welcome_content_subheading">
+                Pub & Restaurant
+              </p>
+              <ul class="welcome_content_logo">
+                <li><i class="fas fa-minus"></i></li>
+                <li><i class="fas fa-utensils"></i></li>
+                <li><i class="fas fa-wine-glass-alt"></i></li>
+                <li><i class="fas fa-tv"></i></li>
+                <li><i class="fas fa-minus"></i></li>
+              </ul>
+              <h3 class="welcome_content_caption">
+                Enjoy the best food and drinks with your friends in SCOTSMAN
+              </h3>
+              <div class="welcome_content_btn">
+                <a href="#section_about" class="btn btn-default">Discover</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="overlay"></div>
+      <div class="welcome_bg"></div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -38,5 +130,8 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/d2f9e4dfbd.js" crossorigin="anonymous"></script>
+  </head>
   </body>
 </html>
