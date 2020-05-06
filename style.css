@@ -22,6 +22,11 @@ body {
   letter-spacing: 1px;
 }
 
+.navbarDark {
+  background-color: rgba(0, 0, 0, 1);
+  transition: all 1s;
+}
+
 .navbar .navbar-brand {
   padding: 0;
   margin: 0;
