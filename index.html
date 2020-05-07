@@ -17,8 +17,10 @@
     />
     <!-- custom css -->
     <link rel="stylesheet" href="style.css" />
-    <title>Hello, world!</title>
-  </head>
+
+    <!-- lightbox css -->
+    <link href="./node_modules/lightbox2/dist/css/lightbox.css" rel="stylesheet" />
+    </head>
   <body>
     <!-- navbar -->
 
@@ -172,20 +174,80 @@
             <hr class="section_title_line mx-auto">
           </div>
         </div>
+
+          <div class="row gallery__grid" style="position: relative; height: 794px">
+           
+            <div class="col-sm-4 col-xs-6 gallery__item" style="position: absolute; left: 0px; top: 0px;">
+              
+
+              <a href="img/1.jpg" data-lightbox="gallery">
+                
+                <img src="img/1.jpg" class="img-fluid" alt="...">
+              </a>
+              <div class="overlay"></div>
+            </div>
+
+            <div class="col-sm-4 col-xs-6 gallery__item" style="position: absolute; left: 390px; top: 0px;">
+              <a href="img/6.jpg" data-lightbox="gallery">
+                <img src="img/6.jpg" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-sm-4 col-xs-6 gallery__item" style="position: absolute; left: 780px; top: 0px;">
+              <a href="img/2.jpg" data-lightbox="gallery">
+                <img src="img/2.jpg" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-sm-4 col-xs-6 gallery__item" style="position: absolute; left: 0px; top: 264px;">
+              <a href="img/3.jpg" data-lightbox="gallery">
+                <img src="img/3.jpg" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-sm-4 col-xs-6 gallery__item" style="position: absolute; left: 780px; top: 264px;">
+              <a href="img/5.jpg" data-lightbox="gallery">
+                <img src="img/5.jpg" class="img-fluid" alt="...">
+              </a>
+            </div>
+        <div class="col-sm-4 col-xs-6 gallery__item" style="position: absolute; left: 390px; top: 397px;">
+              <a href="img/4.jpg" data-lightbox="gallery">
+                <img src="img/4.jpg" class="img-fluid" alt="...">
+              </a>
+            </div>
+            
+            <div class="col-sm-4 col-xs-6 gallery__item" style="position: absolute; left: 0px; top: 529px;">
+              <a href="img/1.jpg" data-lightbox="gallery">
+                <img src="img/1.jpg" class="img-fluid" alt="...">
+              </a>
+            </div>
+
+            
+            
+            <div class="col-sm-4 col-xs-6 gallery__item" style="position: absolute; left: 780px; top: 529px;">
+              <a href="img/2.jpg" data-lightbox="gallery">
+                <img src="img/2.jpg" class="img-fluid" alt="...">
+              </a>
+            </div>
+
+            <div class="col-sm-4 col-xs-6 gallery__item" style="position: absolute; left: 780px; top: 529px;">
+              <a href="img/2.jpg" data-lightbox="gallery">
+                <img src="img/2.jpg" class="img-fluid" alt="...">
+              </a>
+            </div>
+
+          </div>
+        
       </div>
     </section>
 
     
 
     
-    <!-- Optional JavaScript -->
-    <script src="main.js"></script>
+    
+    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
+  src="https://code.jquery.com/jquery-1.9.1.min.js"
+  integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ="
+  crossorigin="anonymous"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -196,8 +258,15 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <!-- font awesome -->
+    <!-- isotope -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js" integrity="sha256-aZcT9p29I4e3w7VyBLzcPYbTrDUHGKetZaUpPg0sU+s=" crossorigin="anonymous"></script>    <!-- gallery lightbox -->
+    <script src="./node_modules/lightbox2/dist/js/lightbox.js"></script>    
+    
+    <!-- icons cdn -->
     <script src="https://kit.fontawesome.com/d2f9e4dfbd.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/imagesloaded@latest/imagesloaded.pkgd.min.js"></script>
+    <!-- Optional JavaScript -->
+    <script src="main.js"></script>
   </head>
   </body>
 </html>
