@@ -8,6 +8,7 @@
 }
 body {
   font-family: "Raleway", sans-serif;
+  background-color: #ffffff;
 }
 
 /* navbar custom css */
@@ -394,7 +395,7 @@ body {
     letter-spacing: 8px;
   }
   .section_gallery {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
 }
 
@@ -447,4 +448,236 @@ body {
 img {
   max-width: 100%;
   max-height: 100%;
+}
+
+/* review section */
+.section_review .section_review_title {
+  font-family: "Oregano", cursive;
+  position: relative;
+  color: #f1ae2b;
+  font-size: 59px;
+}
+
+.section_review {
+  background: url(./img/wood.jpg) no-repeat center center / cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+  position: relative;
+}
+
+.section_review:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.section_review .carousel_review > .carousel-inner .carousel-item {
+  width: 100%;
+  height: auto;
+  text-align: justify;
+  color: white;
+  padding: 40px 20px;
+}
+
+.section_review .carousel_review > .carousel-inner .carousel-item .review_text {
+  font-size: 16px;
+  line-height: 1.8;
+  padding: 0 15px;
+}
+
+.section_review
+  .carousel_review
+  > .carousel-inner
+  .carousel-item
+  .review_author {
+  font-size: 20px;
+  color: #f1ae2b;
+  margin: 15px;
+  font-family: "Oregano", cursive;
+}
+
+.carousel-control-prev {
+  left: -40px;
+}
+
+.carousel-control-next {
+  right: -30px;
+}
+
+@media (max-width: 767px) {
+  .carousel-control-prev {
+    left: 0px;
+    padding-right: 40px;
+  }
+
+  .section_review {
+    padding: 25px 0;
+  }
+
+  .carousel-control-next {
+    right: 0px;
+    padding-left: 40px;
+  }
+
+  .section_review .carousel_review > .carousel-inner .carousel-item {
+    padding: 30px 10px;
+  }
+  .section_review .section_review_title {
+    padding-top: 0;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .section_review
+    .carousel_review
+    > .carousel-inner
+    .carousel-item
+    .review_text {
+    font-size: 14px;
+  }
+}
+
+/* section map heading */
+
+.section_map-heading {
+  background: url(./img/london.jpg) no-repeat center center / cover;
+  background-attachment: fixed;
+  text-align: center;
+  position: relative;
+}
+.section_map-heading:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.section_map-heading .map__title {
+  padding: 40px 0 20px 0;
+  color: #f1ae2b;
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.section_map-heading .map__address {
+  color: #fff;
+  font-size: 19px;
+  padding-bottom: 40px;
+}
+
+.section_map-heading h2 {
+  margin-top: 21px;
+  margin-bottom: 10.5px;
+}
+
+.white {
+  background-color: white;
+  padding: 15px 0;
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .section_map-heading .map__title {
+    font-size: 35px;
+  }
+  .section_map-heading .map__address {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section_map-heading .map__title {
+    font-size: 30px;
+    padding: 40px 0 10px 0;
+  }
+  .section_map-heading .map__address {
+    padding-bottom: 20px;
+    font-size: 15px;
+  }
+  .section_map-heading {
+    background-attachment: scroll;
+  }
+  .white {
+    display: block;
+  }
+}
+
+/* footer section */
+.section_footer {
+  background-color: Black;
+  padding: 60px 0 30px;
+}
+
+.section_footer .section_footer_heading {
+  color: #f1ae2b;
+  font-size: 35px;
+  font-family: "Oregano", cursive;
+}
+
+.section_footer p {
+  line-height: 1.6;
+  color: #f4f3de;
+}
+
+.section_footer ul > li {
+  display: inline-block;
+  list-style: none;
+}
+
+.section_footer p > a {
+  color: inherit;
+}
+
+.section_footer p > a:hover {
+  color: #f1ae2b;
+}
+
+.section_footer hr {
+  border-top: 1px solid #c8c8c8;
+  margin: 60px 0 30px;
+}
+
+.section_footer ul .social_icon:hover {
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+
+.section_footer ul .social_icon {
+  padding-left: 15px;
+  font-size: 17px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.section_footer i {
+  color: #f1ae2b;
+}
+
+.section_footer p > i {
+  font-size: 15px;
+  color: #f1ae2b;
+  margin-right: 5px;
+}
+
+@media (max-width: 767px) {
+  .section_footer {
+    text-align: center;
+  }
+  .section_footer h3 {
+    padding-top: 10px;
+  }
+
+  .section_footer hr {
+    margin: 10px 0 30px;
+  }
 }
