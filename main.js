@@ -30,3 +30,30 @@ var gallery = (function () {
   // Init menu
   initGallery();
 })();
+
+/*** Button to top page ***/
+
+var toTopButton = (function () {
+  // Variables
+  var topButton = $("#back-to-top");
+  var scrollTop = $(window).scrollTop();
+  var isActive = false;
+  if (scrollTop > 100) {
+    isActive = true;
+  }
+
+  // Methods
+
+  // Events
+  $(window).scroll(function () {
+    scrollTop = $(window).scrollTop();
+
+    if (scrollTop > 100 && !isActive) {
+      isActive = true;
+      topButton.fadeIn();
+    } else if (scrollTop <= 100 && isActive) {
+      isActive = false;
+      topButton.fadeOut();
+    }
+  });
+})();

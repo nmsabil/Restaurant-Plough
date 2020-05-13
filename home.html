@@ -22,6 +22,10 @@
     <link href="./node_modules/lightbox2/dist/css/lightbox.css" rel="stylesheet" />
     </head>
   <body>
+    <!-- button to scroll top -->
+    <a id="back-to-top" href="#section_welcome" class="btn btn-primary back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left" style="display: block;">
+      <i class="fas fa-arrow-up"></i>
+    </a>
     <!-- navbar -->
 
     <nav class="navbar navbar-dark navbar-expand-md fixed-top" id="navbar">
@@ -67,9 +71,9 @@
                 Menu
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item mx-auto" href="#">Restaurant</a>
+                <a class="dropdown-item mx-auto" href="MenuR.html">Restaurant</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item mx-auto" href="#">Take Away</a>
+                <a class="dropdown-item mx-auto" href="MenuT.html">Take Away</a>
               </div>
             </li>
             <li class="nav-item">
@@ -83,7 +87,7 @@
     </nav>
 
     <!-- welcome-session -->
-    <section class="section_welcome">
+    <section class="section_welcome" id="section_welcome">
       <div class="container">
         <div class="row">
           <div class="col-xs-6 col-xs-offset-3 mx-auto">
@@ -115,7 +119,7 @@
       <div class="welcome_bg"></div>
     </section>
 
-    <section class="section_about">
+    <section class="section_about" id="section_about">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
