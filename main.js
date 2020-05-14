@@ -16,12 +16,14 @@ var gallery = (function () {
   var galleryItemSelector = ".gallery__item";
   // Methods
   function initGallery() {
-    document.ready(
-      gallery.isotope({
-        itemSelector: galleryItemSelector,
-      })
-    );
+    grid = gallery.isotope({
+      itemSelector: galleryItemSelector,
+    });
+    grid.imagesLoaded().progress(function () {
+      grid.isotope("layout");
+    });
   }
+
   // Init menu
   initGallery();
 })();
