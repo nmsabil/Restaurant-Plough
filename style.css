@@ -45,7 +45,7 @@ body {
 .navbar {
   margin: 0;
   padding: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   text-align: center;
   font-size: 11px;
@@ -60,7 +60,7 @@ body {
 }
 
 .navbar .navbar-brand {
-  padding: 0;
+  padding: 8px 0 5px 5px;
   margin: 0;
 }
 .nav-item {
@@ -109,6 +109,22 @@ body {
   .navbar-nav .dropdown-menu .dropdown-item {
     color: beige !important;
   }
+  .navbar .navbar-brand {
+    padding: 8px 0 5px 10px;
+    margin: 0;
+    height: 50px;
+  }
+  .navbar .navbar-brand {
+    padding: 8px 0 5px 5px;
+    margin: 0;
+  }
+  .navbar .navbar-brand {
+    padding: 8px 0 3px 5px;
+    margin: 0;
+  }
+  .navbar-dark .navbar-toggler {
+    margin-right: 5px;
+  }
 }
 
 /* welcome section custom css */
@@ -151,7 +167,7 @@ body {
   bottom: 0;
   background-color: rgba(255, 255, 255, 1);
   left: 0;
-  background: #000000 url(./img/hero.jpg) no-repeat center center / cover;
+  background: #000000 url(./img1/slogan_bg.jpg) no-repeat center center / cover;
   z-index: -10;
   background-attachment: fixed;
 }
@@ -363,7 +379,7 @@ body {
 /* slogan section */
 
 .section_slogan {
-  background: url(./img/hero.jpg) no-repeat center center / cover;
+  background: url(./img1/slogan_bg.jpg) no-repeat center center / cover;
   background-attachment: fixed;
   padding: 100px 0;
   text-align: center;
@@ -499,7 +515,7 @@ img {
 }
 
 .section_review {
-  background: url(./img/wood.jpg) no-repeat center center / cover;
+  background: url(./img1/review_bg.jpg) no-repeat center center / cover;
   background-attachment: fixed;
   padding: 100px 0;
   position: relative;
@@ -584,7 +600,7 @@ img {
 /* section map heading */
 
 .section_map-heading {
-  background: url(./img/london.jpg) no-repeat center center / cover;
+  background: url(./img1/map_bg.jpg) no-repeat center center / cover;
   background-attachment: fixed;
   text-align: center;
   position: relative;
@@ -756,7 +772,7 @@ img {
 }
 
 .section_header .about_bg {
-  background-image: url(./img/hero.jpg);
+  background-image: url(./img1/gallery_bg.jpg);
 }
 
 .section_header .section_header__bg {
@@ -1029,8 +1045,6 @@ a:focus {
   }
   .tabcontent {
     width: 73%;
-  }
-  .section_menu .menu__text-grid .menu__item > h3 > .price {
   }
   .tab button {
     font-size: 11px;
