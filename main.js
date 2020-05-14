@@ -16,9 +16,11 @@ var gallery = (function () {
   var galleryItemSelector = ".gallery__item";
   // Methods
   function initGallery() {
-    gallery.isotope({
-      itemSelector: galleryItemSelector,
-    });
+    document.ready(
+      gallery.isotope({
+        itemSelector: galleryItemSelector,
+      })
+    );
   }
   // Init menu
   initGallery();

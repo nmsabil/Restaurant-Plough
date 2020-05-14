@@ -7,7 +7,7 @@
 }
 body {
   font-family: "Raleway", sans-serif;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 /* button style to scroll top */
@@ -23,20 +23,20 @@ body {
 }
 
 .btn-primary {
-  color: #ffffff;
+  color: #fff;
   background-color: #f1ae2b;
   border-color: #efa513;
   border-radius: 50rem !important;
 }
 
 .btn-primary:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: #eeb84d;
   border-color: #efa513;
 }
 
 .btn-primary:active {
-  color: #ffffff !important;
+  color: #fff !important;
   background-color: #946b1a !important;
   border-color: #efa513 !important;
 }
@@ -245,7 +245,7 @@ body {
 
 .section_about {
   margin-top: -50px;
-  background-color: #ffffff;
+  background-color: #fff;
   padding-top: 80px;
 }
 
@@ -329,7 +329,7 @@ body {
   flex-direction: row;
   -webkit-box-align: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .section_about_row .about_img {
@@ -425,7 +425,7 @@ body {
 }
 
 .section_gallery {
-  background-color: #ffff;
+  background-color: #fff;
 
   padding-top: 50px;
   padding-bottom: 100px;
@@ -804,7 +804,7 @@ img {
 }
 
 .breadcrumb > .active {
-  color: #ffffff;
+  color: #fff;
 }
 
 .breadcrumb {
