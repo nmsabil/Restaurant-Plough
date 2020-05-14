@@ -14,6 +14,7 @@ var gallery = (function () {
   // Variables
   var gallery = $(".gallery__grid");
   var galleryItemSelector = ".gallery__item";
+  var grid;
   // Methods
   function initGallery() {
     grid = gallery.isotope({
